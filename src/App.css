@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://i.pinimg.com/736x/71/4a/37/714a37c491df891908408234b4e599de.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* set the color and opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+}
+p
+{
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.Box
+{
+  margin-top: 15%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3rem;
+  padding-top: 0.5rem;
+  border-radius: 0.5cm;
+  text-align: center;
+  align-items: center;
+  transform: scale(1.7); /* adjust the scale value as needed */
+}
+table
+{
+  transform: scale(1.2);
+  align-self: center;
+}
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+thead
+{
+  align-items: center;
+  padding-bottom:10px;
+}
+input {
+  margin-left: 10px;
+  width: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #185abc;
+}
+
+button:active {
+  background-color: #0c2d84;
+}
+
+.error {
+  color: red;
+  overflow-wrap: break-word;
+}
