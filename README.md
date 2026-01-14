@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# SGPA & CGPA Calculator Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The **SGPA & CGPA Calculator** is a user-friendly web application built with **React.js**, designed to streamline the process of calculating and managing academic performance. Users can input their course credits and grades for each semester, and the application will automatically compute the Semester Grade Point Average (SGPA). Additionally, it provides functionality to calculate the Cumulative Grade Point Average (CGPA) over multiple semesters and maintain a detailed report card for academic tracking.
 
-In the project directory, you can run:
+This project showcases practical expertise in **front-end development, React.js, and academic data management**, making it ideal for **web development, educational technology, and software engineering portfolios**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Provide an intuitive interface for entering grades and credits  
+- Automatically calculate SGPA for each semester  
+- Compute CGPA across multiple semesters  
+- Maintain a comprehensive report card for academic performance tracking  
+- Enhance user experience with real-time calculations and feedback  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+- **User-Friendly Input Interface**  
+  Easily enter subject credits and corresponding grades for each semester.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Automated SGPA Calculation**  
+  Instantly compute SGPA based on entered credits and grades.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **CGPA Tracking**  
+  Calculate and update CGPA as new semester data is added.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Report Card Management**  
+  Generate and maintain a detailed academic report card for future reference.
 
-### `npm run eject`
+- **Interactive and Responsive Design**  
+  Built with React.js to ensure a seamless user experience across devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Front-End Framework:** React.js  
+- **JavaScript:** ES6+  
+- **Styling:** CSS / SCSS  
+- **State Management:** React Hooks / Context API  
+- **Build Tools:** Webpack, Babel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Skills Demonstrated
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React.js Development  
+- Front-End Design and UX/UI Principles  
+- Dynamic Data Handling and State Management  
+- Real-Time Calculation and Feedback  
+- Educational Software Solutions  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Application Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Input Grades and Credits**  
+   - Users enter course-specific credits and grades for each semester.
 
-### Analyzing the Bundle Size
+2. **Calculate SGPA**  
+   - The application computes SGPA based on the provided data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Update CGPA**  
+   - CGPA is recalculated and updated with each new semester's data.
 
-### Making a Progressive Web App
+4. **Generate Report Card**  
+   - Maintain a detailed report card summarizing academic performance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Why This Project Matters
 
-### Deployment
+This project highlights the application of **modern web technologies** to enhance academic performance tracking. It provides a practical and accessible tool for students to manage their grades efficiently, offering insights and convenience that support educational success.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Keywords (ATS Optimization)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`React.js`, `Web Application`, `SGPA Calculator`, `CGPA Tracker`,  
+`Front-End Development`, `Educational Technology`, `JavaScript`, `User Experience`,  
+`Report Card Management`, `Real-Time Data Processing`
